@@ -16,7 +16,7 @@
     line-height: 50px;
     // height: 50px;
 
-    background-color: black;
+    background-color: #130E0A;
     color: white;
 
     position: sticky;
@@ -69,12 +69,11 @@
         h2{
             // background-color: red;
             margin-bottom: 0;
+            // padding-top: 40px;
+            margin-top: 40px;
 
             height: 100px;
             line-height: 100px;
-
-            border-top: double black 3px;
-
         }
     }
 
@@ -116,7 +115,7 @@
 
     #presentation{
         height: 600px;
-        background-color: whitesmoke;
+        background-color: white;
 
         .presentation_p{
             margin: auto;
@@ -137,13 +136,23 @@
 
     }
 
+    #projets_intro{
+        height: 600px;
+        background-image: url('./assets//background/desk.webp');
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: white;
+
+        border: solid black 1px;
+
+        font-size: 4em;
+        margin-bottom: 70px;
+    }
+
     #projets{
         height: auto;
-        background: linear-gradient(
-            to top,
-            rgba(0, 0, 0, 0),
-            whitesmoke
-        );
+        background-color: white;
         padding-bottom: 50px;
 
         .projets__container{
@@ -163,7 +172,10 @@
         }
 
         .projet__article{
+            background-color: whitesmoke;
+            border-radius: 10px;
             margin-bottom: 50px;
+            padding-bottom: 20px;
         }
 
         .projet__title{
@@ -246,7 +258,7 @@
         }
 
         .projet__tag{
-            background-color: black;
+            background-color: #130E0A;
             color: white;
             border-radius: 20px;
 
@@ -269,7 +281,7 @@
     #competences{
         display: flex;
         flex-direction: row;
-        background-color: whitesmoke;
+        background-color: #130E0A;
         padding-top: 0;
 
         .competences__img{
@@ -280,7 +292,7 @@
             width: 50%;
 
             .competences__h2{
-                
+                color: white;
             }
         }
 
@@ -322,6 +334,7 @@
 
     #contact{
         // height: auto;
+        // padding-top: 40px;
 
         background: linear-gradient(
             to top,
@@ -377,7 +390,7 @@
             }
 
             .submit{
-                background-color: black;
+                background-color: #130E0A;
                 color: white;
                 border: none;
             }            
@@ -392,7 +405,7 @@
 
 .footer{
     height: 200px;
-    background-color: black;
+    background-color: #130E0A;
     color: white;
 
     display: flex;
@@ -444,6 +457,10 @@
 
 @media (max-width: 800px){
 
+    .presentation_p{
+        width: 80% !important;
+    }
+
     .competences__h2{
         color: whitesmoke;
     }
@@ -461,10 +478,19 @@
             url("./assets/background/paint.webp"), ;
     }
 
+    .form__form{
+        width: 80% !important;
+    }
+
 }
 
 
 @media (max-width: 600px) {
+
+    section{
+        height: auto !important;
+    }
+
     .header__nav__ul{
         flex-wrap: wrap;
         justify-content: space-evenly;
@@ -472,5 +498,9 @@
         .header__nav__li{
             width: 33%;
         }
+    }
+
+    #competences{
+        height: 100dvh !important;
     }
 }

@@ -9,8 +9,9 @@ import Form from './components/Form';
 import Projet from './components/Projet';
 // import ModalProjet from './components/ModalProjet';
 
-import arrowDown from './assets/arrowDown.webp'
+import arrowDown from './assets/arrowDown.webp';
 import paint from './assets/background/paint.webp';
+// import desk from './assets/background/desk.webp';
 
 function App() {
 
@@ -30,13 +31,18 @@ function App() {
         <Header/>
         <section id="presentation">
           <h2>Présentation</h2>
-          <p className='presentation_p'>Developpeur web passionné par le front-end et le web design, sensibilisé à l'expérience utilisateur et l'accessibilité, je développe des projets centré autour de l'Humain.</p>
-          <p className='presentation_p'>Si vous cherchez un developpeur pour vous réaliser un site dynamique et responsive, n'hesitez pas à me <a className='presentation_a' href='#contact'>contacter</a></p>
+          <p className='presentation_p'>Développeur web passionné par le front-end et le web design, sensibilisé à l'expérience utilisateur et à l'accessibilité, je développe des projets centrés autour de l'humain.</p>
+          <p className='presentation_p'>Si vous cherchez un développeur pour réaliser un site dynamique et responsive, n'hésitez pas à me <a className='presentation_a' href='#contact'>contacter</a></p>
 
         </section>
+
+        <section id='projets_intro'>
+          {/* <img src={desk} alt='bureau'/> */}
+          <h2 className='projets__h2'>Mes Projets</h2>
+        </section>
+        
         {/* parcourrir les projets et afficher un "slide" par projet */}
         <section id="projets">
-          <h2 className='projets__h2'>Mes Projets</h2>
           <div className="projets__container">
           {
             projets.map((projet)=>

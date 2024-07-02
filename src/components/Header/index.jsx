@@ -14,7 +14,7 @@ function Header(){
                         <a className='header__nav__a' href='#presentation'>Presentation</a>
                     </li>
                     <li className="header__nav__li">
-                        <a className='header__nav__a' href='#projets'>Projets</a>
+                        <a className='header__nav__a' href='#projets_intro'>Projets</a>
                     </li>
                     <li className="header__nav__li">
                         <a className='header__nav__a' href='#competences'>Compétences</a>
