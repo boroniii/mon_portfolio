@@ -7,6 +7,9 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Form from './components/Form';
 import Projet from './components/Projet';
+
+import Tab from 'react-bootstrap/Tab';
+import Tabs from 'react-bootstrap/Tabs';
 // import ModalProjet from './components/ModalProjet';
 
 import arrowDown from './assets/arrowDown.webp';
@@ -44,11 +47,15 @@ function App() {
         {/* parcourrir les projets et afficher un "slide" par projet */}
         <section id="projets">
           <div className="projets__container">
-          {
-            projets.map((projet)=>
-              <Projet {...projet} key={projet.title} />
-            )
-          }
+            <Tabs fill>
+            {
+              projets.map((projet)=>
+                <Tab eventKey={projet.short} title={projet.short}>
+                  <Projet {...projet} key={projet.title} />
+                </Tab>
+              )
+            }
+            </Tabs>
           </div>
         </section> 
         <section id="competences">
