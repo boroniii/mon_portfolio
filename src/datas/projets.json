@@ -1,0 +1,79 @@
+[
+    {
+        "title": "Agence de voyage Booki",
+        "logo":"/images/logo/booki_277x100.webp",
+        "images": [
+            "/images/projets/booki_desktop.webp",
+            "/images/projets/booki_mobile.webp",
+            "/images/projets/booki_tablet.webp"
+        ],
+        "description": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS, intégrer l'interface responsive d'un site à partir d'une maquette figma",
+        "problematique":"",
+        "competences": [
+            "Intégrer du contenu conformément à une maquette avec HTML et CSS",
+            "Implémenter une interface responsive avec HTML et CSS"
+        ],
+        "url": "https://github.com/Boro-nii/Booki.git",
+        "tags": [
+            "HTML",
+            "CSS",
+            "Front-end",
+            "Responsive"
+        ]
+    },
+    {
+        "title": "Portfolio Sophie Bluel",
+        "logo":"/images/logo/bluel_357x100.webp",
+        "images": [
+            "/images/projets/bluel_desktop_add.webp",
+            "/images/projets/bluel_desktop_edition.webp",
+            "/images/projets/bluel_desktop_login.webp",
+            "/images/projets/bluel_desktop.webp"
+
+        ],
+        "description": "Créez une page web dynamique avec JavaScript, gestion des événements utilisateurs et la manipulation des éléments du DOM avec JavaScript",        
+        "problematique":"",
+        "competences": [
+            "Récupérer les données utilisateurs dans le JavaScript via des formulaires",
+            "Manipuler les éléments du DOM avec JavaScript",
+            "Gérer les événements utilisateurs avec JavaScript"
+        ],
+        "url": "https://github.com/Boro-nii/Portfolio-architecte-sophie-bluel.git",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "DOM",
+            "Front-end"
+        ]
+    },    
+    {
+        "title": "Entreprise de location Kasa",
+        "logo":"/images/logo/kasa_268x100.webp",
+        "images": [
+            "/images/projets/kasa_accueil.webp",
+            "/images/projets/kasa_info.webp",
+            "/images/projets/kasa_logement.webp"
+        ],
+        "description": "Créez une application web de location immobilière avec React",
+        "problematique":"",
+        "competences": [
+            "Configurer la navigation entre les pages de l'application avec React Router",
+            "Initialiser une application avec Create React App",
+            "Développer des éléments de l'interface d'un site web grâce à des composants React",
+            "Développer une interface web avec Sass",
+            "Mettre en œuvre des animations CSS"
+        ],
+        "url": "https://github.com/Boro-nii/kasa.git",
+        "tags": [
+            "React",
+            "React Router",
+            "Sass",
+            "Node.js",
+            "Animation CSS",
+            "Front-end",
+            "Responsive"
+        ]
+
+    }
+]
