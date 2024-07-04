@@ -30,7 +30,6 @@ function Form(){
 		}
 	};
 
-
     return(
         <form action="#" method="POST" className="form__form" onSubmit={handleSubmit}>
 

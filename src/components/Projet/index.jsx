@@ -1,6 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel';
+import './Projet.scss'
 
 function Projet(props){
+    
     return(
         <article className='projet__article'>
             <div className='projet__line'></div>
