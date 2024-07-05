@@ -43,7 +43,7 @@ function App() {
             <Tabs fill>
             {
               projets.map((projet)=>
-                <Tab eventKey={projet.short} title={projet.short}>
+                <Tab eventKey={projet.short} title={projet.short} key={projet.short}>
                   <Projet {...projet} key={projet.title} />
                 </Tab>
               )
